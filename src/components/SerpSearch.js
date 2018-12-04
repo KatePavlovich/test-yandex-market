@@ -100,12 +100,11 @@ class SerpSearch extends React.Component {
         >
           Показать найденные результаты во всех категориях
         </a>
-        <a
+        <a rel="noopener noreferrer"
           className="link"
           href="https://yandex.ru/search/?text=%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D1%8B"
           target="_blank"
-          rel="nofollow noopener"
-        >
+                  >
           Искать «Мониторы» в Яндексе
         </a>
       </div>

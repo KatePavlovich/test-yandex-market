@@ -7,7 +7,7 @@ class Tabs extends React.Component {
         className="n-w-tabs n-w-tabs_flex_row b-zone i-bem n-w-tabs_js_inited"
         data-bem="{n-w-tabs:,b-zone:{name:menu-row}}"
       >
-        <noindex>
+        <div>
           <div className="n-w-tabs__content_type_row n-adaptive-layout">
             <div
               className="n-w-tab n-w-tab_interaction_click-navigation-menu n-w-tab_type_navigation-menu-grouping i-bem n-w-tab_js_inited"
@@ -448,7 +448,7 @@ class Tabs extends React.Component {
               </div>
             </div>
           </div>
-        </noindex>
+        </div>
       </div>
     );
   }

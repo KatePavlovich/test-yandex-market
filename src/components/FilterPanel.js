@@ -16,7 +16,7 @@ class FilterPanel extends React.Component {
                 className="n-filter-sorter i-bem n-filter-sorter_state_select n-filter-sorter_js_inited"
                 data-bem="{n-filter-sorter:{options:,place:,showOnboarding:,isActive:true}}"
               >
-                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited">
+                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited" href="/">
                   по популярности
                 </a>
               </div>
@@ -24,7 +24,7 @@ class FilterPanel extends React.Component {
                 className="n-filter-sorter i-bem n-filter-sorter_js_inited"
                 data-bem="{n-filter-sorter:{options:[{id:aprice,type:asc},{id:dprice,type:desc}],place:,showOnboarding:}}"
               >
-                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited">
+                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited" href="/">
                   по цене
                 </a>
               </div>
@@ -32,7 +32,7 @@ class FilterPanel extends React.Component {
                 className="n-filter-sorter i-bem n-filter-sorter_js_inited"
                 data-bem="{n-filter-sorter:{options:{id:quality},place:,showOnboarding:}}"
               >
-                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited">
+                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited" href="/">
                   по рейтингу
                 </a>
               </div>
@@ -40,7 +40,7 @@ class FilterPanel extends React.Component {
                 className="n-filter-sorter i-bem n-filter-sorter_js_inited"
                 data-bem="{n-filter-sorter:{options:{id:opinions},place:,showOnboarding:}}"
               >
-                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited">
+                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited" href="/">
                   по отзывам
                 </a>
               </div>
@@ -48,7 +48,7 @@ class FilterPanel extends React.Component {
                 className="n-filter-sorter i-bem n-filter-sorter_js_inited"
                 data-bem="{n-filter-sorter:{options:{id:discount_p},place:,showOnboarding:}}"
               >
-                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited">
+                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited" href="/">
                   по размеру скидки
                 </a>
               </div>
@@ -56,7 +56,7 @@ class FilterPanel extends React.Component {
                 className="n-filter-sorter i-bem n-filter-sorter_js_inited"
                 data-bem="{n-filter-sorter:{options:{id:ddate},place:,showOnboarding:}}"
               >
-                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited">
+                <a className="link link_theme_major n-filter-sorter__link i-bem link_js_inited" href="/">
                   по новизне
                 </a>
               </div>

@@ -34,6 +34,7 @@ class BrandsCarousel extends React.Component {
                   <img
                     className="metrika__pixel metrika__pixel_added_yes"
                     data-params="{entity:vendor,id:153061}"
+                    alt=""
                   />
                   <a
                     href="https://market.yandex.by/brands/153061?track=search_brands_snippet"
@@ -59,6 +60,7 @@ class BrandsCarousel extends React.Component {
                   <img
                     className="metrika__pixel metrika__pixel_added_yes"
                     data-params="{entity:vendor,id:431391}"
+                    alt=""
                   />
                   <a
                     href="https://market.yandex.by/brands/431391?track=search_brands_snippet"
@@ -84,6 +86,7 @@ class BrandsCarousel extends React.Component {
                   <img
                     className="metrika__pixel metrika__pixel_added_yes"
                     data-params="{entity:vendor,id:153074}"
+                    alt=""
                   />
                   <a
                     href="https://market.yandex.by/brands/153074?track=search_brands_snippet"
@@ -109,6 +112,7 @@ class BrandsCarousel extends React.Component {
                   <img
                     className="metrika__pixel metrika__pixel_added_yes"
                     data-params="{entity:vendor,id:241228}"
+                    alt=""
                   />
                   <a
                     href="https://market.yandex.by/brands/241228?track=search_brands_snippet"
@@ -134,6 +138,7 @@ class BrandsCarousel extends React.Component {
                   <img
                     className="metrika__pixel metrika__pixel_added_yes"
                     data-params="{entity:vendor,id:152863}"
+                    alt=""
                   />
                   <a
                     href="https://market.yandex.by/brands/152863?track=search_brands_snippet"
@@ -159,6 +164,7 @@ class BrandsCarousel extends React.Component {
                   <img
                     className="metrika__pixel metrika__pixel_added_yes"
                     data-params="{entity:vendor,id:152870}"
+                    alt=""
                   />
                   <a
                     href="https://market.yandex.by/brands/152870?track=search_brands_snippet"

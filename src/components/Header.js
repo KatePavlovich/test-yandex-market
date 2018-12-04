@@ -7,7 +7,7 @@ class Header extends React.Component {
         className="header2 suggest-owner i-bem header2_type_default"
         data-bem="{suggest-owner:}"
       >
-        <noindex>
+        <div>
           <div className="head-banner head-banner_type_stock market-metrika i-bem metrika_js_inited">
             <a
               className="head-banner__link market-metrika i-bem head-banner__img-loader metrika_js_inited"
@@ -15,6 +15,7 @@ class Header extends React.Component {
               data-bem="{metrika:{onClick:{stock:{action:}}}}"
             >
               <img
+                alt=""
                 className="head-banner__image"
                 src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/desktop.png"
                 srcSet="//yastatic.net/market-export/_/i/head-banner/discount_hub/desktop_x2.png 2x"
@@ -91,8 +92,8 @@ class Header extends React.Component {
                                 aria-labelledby="header-search header-search-label"
                                 maxLength={400}
                                 autoComplete="off"
-                                defaultValue="\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B"
-                                placeholder
+                                defaultValue=""
+                                placeholder="поиск"
                                 autoCorrect="off"
                                 autoCapitalize="off"
                                 spellCheck="false"
@@ -119,7 +120,6 @@ class Header extends React.Component {
                         </span>
                         <span className="search2__button">
                           <button
-                            role="button"
                             type="submit"
                             className="button2 button2_size_ml button2_type_submit button2_pin_brick-round i-bem suggest2-form__button button2_theme_gray button2_js_inited"
                             data-bem="{button2:}"
@@ -232,7 +232,7 @@ class Header extends React.Component {
               </div>
             </div>
           </div>
-        </noindex>
+        </div>
       </div>
     );
   }

@@ -4,16 +4,13 @@ import Tabs from "./Tabs";
 import PageSearch from "./PageSearch";
 import Layout from "./Layout";
 import Footer from "./Footer";
+import CopyRight from "./Copyright";
 
 class Main extends React.Component {
   render() {
     return (
       <div className="main">
         <Header />
-        {}
-        {}
-        {}
-        {}
         <div
           className="n-w-tabs__popup-shadow i-bem"
           style={{
@@ -21,29 +18,24 @@ class Main extends React.Component {
           }}
         />
         <Tabs />
-        {}
-        {}
         <PageSearch />
         <Layout />
         <div
           className="n-settings-notifications-popup-opener"
           data-bem="{n-settings-notifications-popup-opener:}"
         />
-        <noindex>
-        </noindex>
+        <div>
+        </div>
         <div className="gallery-popup-container" />
         <div
           className="n-notification-center n-notification-center_visibility_no i-bem n-notification-center_js_inited"
           data-bem="{n-notification-center:}"
         />
-        {}
-        {}
-        {}
         <div
           className="footer-market i-bem footer-market_js_inited"
           data-bem="{footer-market:{domainZone:by,route:market:list}}"
         >
-          <noindex>
+          <div>
             <div
               className="footer-subscription-wrap i-bem footer-subscription-wrap_js_inited"
               data-bem="{footer-subscription-wrap:{type:ADVERTISING}}"
@@ -111,21 +103,11 @@ class Main extends React.Component {
                   Пользовательское соглашение
                 </a>
               </div>
-              <div className="copyright">
-                © 2018  ООО «
-                <a
-                  className="link copyright__link"
-                  href="https://market.yandex.by/"
-                >
-                  Яндекс.Маркет
-                </a>
-                »
-              </div>
+              <CopyRight />
             </div>
-          </noindex>
+          </div>
         </div>
-        {}
-        {}
+
       </div>
     );
   }

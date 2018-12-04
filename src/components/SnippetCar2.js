@@ -15,6 +15,7 @@ class SnippetCar2 extends React.Component {
               data-bem="{n-product-toolbar: {}}"
             >
               <a
+                href="/"
                 className="n-product-toolbar__item link link_theme_minor wishlist-control wishlist-control_type_toggle pseudo-checkbox hint b-zone b-spy-events i-bem pseudo-checkbox_js_inited hint_js_inited wishlist-control_js_inited metrika_js_inited"
                 data-bem="{wishlist-control:{item:{type:model,itemId:1963924408,hid:91052,displayName:\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Viewsonic VA2719-2K-smhd,modelId:1963924408,addSign:true},image:{url://avatars.mds.yandex.net/get-mpic/466729/img_id5595280924220369215.jpeg/2hq}},hint:{to:top,content:\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C\xA0\u0432\xA0\u043E\u0442\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0435},pseudo-checkbox:,metrika:,b-zone:{name:to-wishlist}}"
               >
@@ -50,7 +51,43 @@ class SnippetCar2 extends React.Component {
             </div>
           </div>
         </div>
-        <div className="n-snippet-card2__stickers" />
+        <div className="n-snippet-card2__stickers" >
+          <div className="stickers__sticker stickers__sticker_type_new">
+            Новинка
+          </div>
+          
+{/* <div className="stickers__sticker stickers__sticker_type_discount">
+                          <span className="sticker_type_discount__text">
+                            -14%
+                          </span>
+                        </div>
+
+
+                        
+  
+  <div className="n-snippet-card2__stickers">
+<div
+  className="n-reasons-to-buy n-reasons-to-buy_type_recommend b-zone b-spy-visible i-bem n-reasons-to-buy_tag_recommend n-reasons-to-buy_js_inited b-spy-visible_js_inited"
+  data-bem="{n-reasons-to-buy:,b-spy-visible:,b-zone:{name:reason-to-buy,data:{entity:product,id:1729139455,taggedEntity:recommend}}}"
+>
+  <div className="n-reasons-to-buy__content">
+    <span className="n-reasons-to-buy__label">
+      Выбор покупателей
+    </span>
+    <div
+      data-bem="{popup:{directions:{to:bottom,axis:left,offset:{top:5},tail:{offset:{left:-40}}}}}"
+      className="popup  i-bem  popup_autoclosable_yes  popup_adaptive_yes  popup_animate_yes  popup_theme_info  popup_type_reasons-to-buy popup_js_inited"
+    >
+      <div className="popup__under  " />
+      <i className="popup__tail" />
+      <div className="popup__content">
+        Больше 80% покупателей советуют купить этот товар в
+        своих отзывах на Маркете.
+      </div>
+    </div>
+  </div>
+</div> */}
+        </div>
         <div className="n-snippet-card2__part n-snippet-card2__part_type_left">
           <a
             className="n-snippet-card2__image link i-bem link_js_inited"
@@ -182,3 +219,4 @@ class SnippetCar2 extends React.Component {
 }
 
 export default SnippetCar2;
+

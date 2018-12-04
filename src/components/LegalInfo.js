@@ -27,7 +27,7 @@ class LegalInfo extends React.Component {
             className="link link_theme_minor"
             href="https://yandex.ru/support/market/discounts.html"
             target="_blank"
-            rel="nofollow noopener"
+            rel="noopener noreferrer"
           >
             Процент скидки рассчитан автоматически
           </a>

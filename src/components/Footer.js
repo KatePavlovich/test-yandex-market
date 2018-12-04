@@ -19,7 +19,7 @@ class Footer extends React.Component {
                   className="footer-market__list-item link"
                   href="https://yandex.ru/support/market/choice-goods/product-search.html"
                   target="_blank"
-                  rel="nofollow noopener"
+                  rel="noopener noreferrer"
                 >
                   Как выбрать товар
                 </a>
@@ -27,7 +27,7 @@ class Footer extends React.Component {
                   className="footer-market__list-item link"
                   href="https://yandex.ru/support/market/troubleshooting/general.xml"
                   target="_blank"
-                  rel="nofollow noopener"
+                  rel="noopener noreferrer"
                 >
                   Обратная связь
                 </a>
@@ -35,7 +35,7 @@ class Footer extends React.Component {
                   className="footer-market__list-item link"
                   href="https://yandex.ru/support/market/"
                   target="_blank"
-                  rel="nofollow noopener"
+                  rel="noopener noreferrer"
                 >
                   Помощь по сервису
                 </a>
@@ -43,7 +43,7 @@ class Footer extends React.Component {
                   className="footer-market__list-item link"
                   href="https://yandex.ru/jobs/usability"
                   target="_blank"
-                  rel="nofollow noopener"
+                  rel="noopener noreferrer"
                 >
                   Участие в исследованиях
                 </a>
@@ -114,7 +114,7 @@ class Footer extends React.Component {
                   className="footer-market__promo-block footer-market__inner-container"
                   href="https://sovetnik.yandex.ru/?clid=2312596&utm_source=market&utm_medium=main&utm_campaign=footer"
                   target="_blank"
-                  rel="nofollow noopener"
+                  rel="noopener noreferrer"
                 >
                   <div className="footer-market__promo-img" />
                   <p className="footer-market__promo-text footer-market__header">
@@ -124,7 +124,7 @@ class Footer extends React.Component {
                     <span
                       className="link"
                       target="_blank"
-                      rel="nofollow noopener"
+                      rel="noopener noreferrer"
                     >
                       Подробнее
                     </span>
@@ -145,22 +145,22 @@ class Footer extends React.Component {
                     href="https://www.facebook.com/yandex.market/"
                     title="Facebook"
                     target="_blank"
-                    rel="nofollow noopener"
-                  />
+                    rel="noopener noreferrer"
+                  >{' '}</a>
                   <a
                     className="footer-market__social-media footer-market__social-media_resource_vk link"
                     href="https://vk.com/yandex.market"
                     title="\u0412\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0435"
                     target="_blank"
-                    rel="nofollow noopener"
-                  />
+                    rel="noopener noreferrer"
+                    >{' '}</a>
                   <a
                     className="footer-market__social-media footer-market__social-media_resource_instagram link"
                     href="https://www.instagram.com/yandex.market/"
                     title="Instagram"
                     target="_blank"
-                    rel="nofollow noopener"
-                  />
+                    rel="noopener noreferrer"
+                    >{' '}</a>
                 </div>
               </div>
             </div>

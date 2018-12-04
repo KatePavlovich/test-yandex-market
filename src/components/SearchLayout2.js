@@ -4,7 +4,7 @@ class SearchLayout2 extends React.Component {
   render() {
     return (
       <div className="search-layout">
-        <div id>
+        <div>
           <div
             className="_18Ke-OpxeG"
             data-d49f65c5="true"
@@ -37,6 +37,7 @@ class SearchLayout2 extends React.Component {
                       >
                         <div className="_1wa1BfeBkk" data-reactid={10}>
                           <img
+                          alt=""
                             src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/saved_resource"
                             className="PvnQESFJHu"
                             data-reactid={11}
@@ -78,7 +79,7 @@ class SearchLayout2 extends React.Component {
                         data-2f9fe585="true"
                         data-reactid={19}
                       >
-                        <span className data-70f80245="true" data-reactid={20}>
+                        <span className="" data-70f80245="true" data-reactid={20}>
                           Компьютерная техника
                         </span>
                       </a>
@@ -99,7 +100,7 @@ class SearchLayout2 extends React.Component {
                             data-reactid={23}
                           >
                             <span
-                              className
+                              className=""
                               data-70f80245="true"
                               data-reactid={24}
                             >
@@ -117,12 +118,13 @@ class SearchLayout2 extends React.Component {
                               data-reactid={26}
                             >
                               <a
+                                href="/"
                                 className="_38YjhiFMWW _3OOgSGfeZO"
                                 data-2f9fe585="true"
                                 data-reactid={27}
                               >
                                 <span
-                                  className
+                                  className=""
                                   data-70f80245="true"
                                   data-reactid={28}
                                 >
@@ -895,7 +897,7 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={156}
                         >
-                          <a className="_2Wg9rE1HzR" data-reactid={157}>
+                          <a className="_2Wg9rE1HzR" data-reactid={157} href="/">
                             Показать всё
                           </a>
                         </footer>
@@ -1158,7 +1160,7 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={204}
                         >
-                          <a className="_2Wg9rE1HzR" data-reactid={205}>
+                          <a className="_2Wg9rE1HzR" data-reactid={205} href="/">
                             Показать ещё 5
                           </a>
                         </footer>
@@ -1372,7 +1374,7 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={242}
                         >
-                          <a className="_2Wg9rE1HzR" data-reactid={243}>
+                          <a className="_2Wg9rE1HzR" data-reactid={243} href="/">
                             Показать всё
                           </a>
                         </footer>
@@ -1658,7 +1660,7 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={292}
                         >
-                          <a className="_2Wg9rE1HzR" data-reactid={293}>
+                          <a className="_2Wg9rE1HzR" data-reactid={293} href="/">
                             Показать ещё 4
                           </a>
                         </footer>
@@ -1963,7 +1965,7 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={347}
                         >
-                          <a className="_2Wg9rE1HzR" data-reactid={348}>
+                          <a className="_2Wg9rE1HzR" data-reactid={348} href="/">
                             Показать ещё 2
                           </a>
                         </footer>
@@ -3257,7 +3259,7 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={586}
                         >
-                          <a className="_2Wg9rE1HzR" data-reactid={587}>
+                          <a className="_2Wg9rE1HzR" data-reactid={587} href="/">
                             Показать всё
                           </a>
                         </footer>

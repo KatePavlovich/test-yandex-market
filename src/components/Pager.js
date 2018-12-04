@@ -28,7 +28,7 @@ class Pager extends React.Component {
         >
           <span className="button__text">0</span>
         </a>
-        <a className="button_action_yes  button button_size_s button_theme_pseudo n-pager__button-number i-bem button_js_inited button_side_left">
+        <a className="button_action_yes  button button_size_s button_theme_pseudo n-pager__button-number i-bem button_js_inited button_side_left" href="/">
           <span className="button__text">1</span>
         </a>
         <a
@@ -69,11 +69,12 @@ class Pager extends React.Component {
             autoComplete="off"
             tabIndex={-1}
             aria-hidden="true"
+            defaultValue="48"
           >
             <option className="select__option" value={12}>
               Показывать по 12
             </option>
-            <option className="select__option" value={48} selected="selected">
+            <option className="select__option" value={48}>
               Показывать по 48
             </option>
           </select>

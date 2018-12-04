@@ -8,7 +8,7 @@ class PagerMore extends React.Component {
         data-bem="{n-pager-more:{page-param:page,current-page:1,total:1312,forceMaxPage:50,per-page:48,url:/api/search?hid=91052}}"
       >
         <div className="pager-more__button pager-loader_preload">
-          <a
+          <a href="/"
             className="button button_size_m button_theme_pseudo i-bem button_js_inited"
             role="button"
             data-bem="{button: }"
@@ -21,7 +21,7 @@ class PagerMore extends React.Component {
           data-bem="{spin: }"
         >
           <img
-            alt
+            alt=''
             src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/La6qi18Z8LwgnZdsAr1qy1GwCwo.gif"
             className="image spin__icon"
           />
