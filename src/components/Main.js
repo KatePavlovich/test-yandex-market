@@ -6,6 +6,7 @@ import Layout from "./Layout";
 import Footer from "./Footer";
 import CopyRight from "./Copyright";
 
+
 class Main extends React.Component {
   render() {
     return (

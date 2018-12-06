@@ -1,4 +1,30 @@
 import React from "react";
+import { Button, Input, Checkbox, Select, Radio } from "antd";
+
+const hotManufactures = 'Acer, AOC, ASUS, BenQ, DELL, HP, Iiyama, LG, NEC, Philips, Samsung,Viewsonic'.split(",")
+const tailManufactures = 'Alienware, Azor, Eizo, Lenovo, MSI'.split(",")
+const manufactures = [ ...hotManufactures, ...tailManufactures].sort()
+// const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+const selectStyle = {width: '100%'}
+const Option  = Select.Option
+const OptGroup = Select.OptGroup
+const RadioGroup = Radio.Group
+const deliveries = {
+  with:"с доставкой",
+  without: "самовывоз",
+  any: "любой",
+}
+const radioStyle = {display: 'block', height: '23px', lineHeight: '30px'}
+// let oldLitera
+
+const groupedManufactures = manufactures.reduce((accum, item) => {
+  const litera = item[0]
+  const list = accum[litera] || []
+  list.push(item)
+  accum[litera] = list 
+  return accum  
+}, {});
+
 
 class SearchLayout2 extends React.Component {
   render() {
@@ -191,29 +217,7 @@ class SearchLayout2 extends React.Component {
                                 data-214865aa="true"
                                 data-reactid={42}
                               >
-                                <input
-                                  type="text"
-                                  className="_2yK7W3SWQ- _1d02bPcWht"
-                                  id="glpricefrom"
-                                  name="\u0426\u0435\u043D\u0430 \u043E\u0442"
-                                  placeholder="139,10"
-                                  defaultValue
-                                  data-reactid={43}
-                                />
-                                <label
-                                  aria-label="\u0426\u0435\u043D\u0430 \u043E\u0442"
-                                  className="YrDvFUmSWM"
-                                  htmlFor="glpricefrom"
-                                  data-reactid={44}
-                                >
-                                  от
-                                </label>
-                                <button
-                                  aria-label="\u041E\u0447\u0438\u0441\u0442\u0438\u0442\u044C \u043F\u043E\u043B\u0435 \u0426\u0435\u043D\u0430 \u043E\u0442"
-                                  className="_3DiWbCQOB8"
-                                  disabled
-                                  data-reactid={45}
-                                />
+                              <Input addonBefore='от' />
                               </p>
                             </li>
                             <li className="_3E2Wzu8o3H" data-reactid={46}>
@@ -223,29 +227,7 @@ class SearchLayout2 extends React.Component {
                                 data-214865aa="true"
                                 data-reactid={47}
                               >
-                                <input
-                                  type="text"
-                                  className="_2yK7W3SWQ- _1f2usTwyAs"
-                                  id="glpriceto"
-                                  name="\u0426\u0435\u043D\u0430 \u0434\u043E"
-                                  placeholder="13 312,31"
-                                  defaultValue
-                                  data-reactid={48}
-                                />
-                                <label
-                                  aria-label="\u0426\u0435\u043D\u0430 \u0434\u043E"
-                                  className="YrDvFUmSWM"
-                                  htmlFor="glpriceto"
-                                  data-reactid={49}
-                                >
-                                  до
-                                </label>
-                                <button
-                                  aria-label="\u041E\u0447\u0438\u0441\u0442\u0438\u0442\u044C \u043F\u043E\u043B\u0435 \u0426\u0435\u043D\u0430 \u0434\u043E"
-                                  className="_3DiWbCQOB8"
-                                  disabled
-                                  data-reactid={50}
-                                />
+                                <Input addonBefore='до' />
                               </p>
                             </li>
                           </ul>
@@ -255,27 +237,7 @@ class SearchLayout2 extends React.Component {
                           data-bccec8a7="true"
                           data-reactid={51}
                         >
-                          <label
-                            className="_1e7iX1B2oW"
-                            htmlFor="delivery-included-filter"
-                            data-9d4e0d85="true"
-                            data-reactid={52}
-                          >
-                            <input
-                              type="checkbox"
-                              className="_3Uz6PcbAtW"
-                              tabIndex={0}
-                              name="delivery-included-filter"
-                              id="delivery-included-filter"
-                              data-reactid={53}
-                              defaultValue="on"
-                            />
-                            <div className="LhMupC0dLR" data-reactid={54}>
-                              <span className="_3RpJHrYdd2" data-reactid={55}>
-                                Цена с учётом доставки
-                              </span>
-                            </div>
-                          </label>
+                          <Checkbox>Цена с учетом доставки</Checkbox>
                         </div>
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={56}>
@@ -287,6 +249,7 @@ class SearchLayout2 extends React.Component {
                       data-f3c53385="true"
                       data-reactid={58}
                     >
+                    {/*}
                       <fieldset
                         data-autotest-id="onstock"
                         className="n6SnxORUP9"
@@ -328,15 +291,18 @@ class SearchLayout2 extends React.Component {
                           </label>
                         </div>
                       </fieldset>
-                      <div className="_3vgfOcGSnv" data-reactid={66}>
+                     */}
+                     <Checkbox><b>В продаже</b></Checkbox>
+{/*                       <div className="_3vgfOcGSnv" data-reactid={66}>
                         {}
-                      </div>
+                      </div> */}
                     </div>
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
                       data-reactid={68}
                     >
+                    
                       <fieldset
                         data-autotest-id={7893318}
                         className="_3M70uokkTS"
@@ -351,50 +317,15 @@ class SearchLayout2 extends React.Component {
                           data-da31bdc5="true"
                           data-reactid={71}
                         >
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={72}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={73}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A267101"
-                                data-858a378a="true"
-                                data-reactid={74}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_267101"
-                                  data-9d4e0d85="true"
-                                  data-reactid={75}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C Acer"
-                                    id="7893318_267101"
-                                    data-reactid={76}
-                                    defaultValue="on"
-                                  />
-                                  <div className="LhMupC0dLR" data-reactid={77}>
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={78}
-                                    >
-                                      Acer
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
+                        <Select mode="multiple" style={selectStyle} placeholder='please select'>
+                        {Object.entries(groupedManufactures).map(([litera, list]) => 
+                        <OptGroup key={litera}  label={litera}>
+                        {list.map((item) => <Option value={item}>{item}</Option>)}
+                        </OptGroup>
+                        )}
+
+                        </Select>
+{/*                         {manufactures.map(item => (<Option value={item}>{item}</Option>
                             className="_1-l0XiE_ze"
                             data-da31bdc5="true"
                             data-reactid={79}
@@ -403,496 +334,14 @@ class SearchLayout2 extends React.Component {
                               className="_16hsbhrgAf"
                               data-17df2f2a="true"
                               data-reactid={80}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A431391"
-                                data-858a378a="true"
-                                data-reactid={81}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_431391"
-                                  data-9d4e0d85="true"
-                                  data-reactid={82}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C AOC"
-                                    id="7893318_431391"
-                                    data-reactid={83}
-                                    defaultValue="on"
-                                  />
-                                  <div className="LhMupC0dLR" data-reactid={84}>
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={85}
-                                    >
-                                      AOC
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={86}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={87}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A152863"
-                                data-858a378a="true"
-                                data-reactid={88}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_152863"
-                                  data-9d4e0d85="true"
-                                  data-reactid={89}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C ASUS"
-                                    id="7893318_152863"
-                                    data-reactid={90}
-                                    defaultValue="on"
-                                  />
-                                  <div className="LhMupC0dLR" data-reactid={91}>
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={92}
-                                    >
-                                      ASUS
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={93}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={94}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A241228"
-                                data-858a378a="true"
-                                data-reactid={95}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_241228"
-                                  data-9d4e0d85="true"
-                                  data-reactid={96}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C BenQ"
-                                    id="7893318_241228"
-                                    data-reactid={97}
-                                    defaultValue="on"
-                                  />
-                                  <div className="LhMupC0dLR" data-reactid={98}>
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={99}
-                                    >
-                                      BenQ
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={100}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={101}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A153080"
-                                data-858a378a="true"
-                                data-reactid={102}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_153080"
-                                  data-9d4e0d85="true"
-                                  data-reactid={103}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C DELL"
-                                    id="7893318_153080"
-                                    data-reactid={104}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={105}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={106}
-                                    >
-                                      DELL
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={107}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={108}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A152722"
-                                data-858a378a="true"
-                                data-reactid={109}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_152722"
-                                  data-9d4e0d85="true"
-                                  data-reactid={110}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C HP"
-                                    id="7893318_152722"
-                                    data-reactid={111}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={112}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={113}
-                                    >
-                                      HP
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={114}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={115}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A152865"
-                                data-858a378a="true"
-                                data-reactid={116}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_152865"
-                                  data-9d4e0d85="true"
-                                  data-reactid={117}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C Iiyama"
-                                    id="7893318_152865"
-                                    data-reactid={118}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={119}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={120}
-                                    >
-                                      Iiyama
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={121}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={122}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A153074"
-                                data-858a378a="true"
-                                data-reactid={123}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_153074"
-                                  data-9d4e0d85="true"
-                                  data-reactid={124}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C LG"
-                                    id="7893318_153074"
-                                    data-reactid={125}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={126}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={127}
-                                    >
-                                      LG
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={128}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={129}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A153117"
-                                data-858a378a="true"
-                                data-reactid={130}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_153117"
-                                  data-9d4e0d85="true"
-                                  data-reactid={131}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C NEC"
-                                    id="7893318_153117"
-                                    data-reactid={132}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={133}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={134}
-                                    >
-                                      NEC
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={135}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={136}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A152870"
-                                data-858a378a="true"
-                                data-reactid={137}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_152870"
-                                  data-9d4e0d85="true"
-                                  data-reactid={138}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C Philips"
-                                    id="7893318_152870"
-                                    data-reactid={139}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={140}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={141}
-                                    >
-                                      Philips
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={142}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={143}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A153061"
-                                data-858a378a="true"
-                                data-reactid={144}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_153061"
-                                  data-9d4e0d85="true"
-                                  data-reactid={145}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C Samsung"
-                                    id="7893318_153061"
-                                    data-reactid={146}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={147}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={148}
-                                    >
-                                      Samsung
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
-                          <li
-                            className="_1-l0XiE_ze"
-                            data-da31bdc5="true"
-                            data-reactid={149}
-                          >
-                            <div
-                              className="_16hsbhrgAf"
-                              data-17df2f2a="true"
-                              data-reactid={150}
-                            >
-                              <a
-                                className="_2RDCAZB4Gk"
-                                href="https://market.yandex.by/catalog/54539/list?hid=91052&glfilter=7893318%3A152807"
-                                data-858a378a="true"
-                                data-reactid={151}
-                              >
-                                <label
-                                  className="_1e7iX1B2oW"
-                                  htmlFor="7893318_152807"
-                                  data-9d4e0d85="true"
-                                  data-reactid={152}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    className="_3Uz6PcbAtW"
-                                    tabIndex={0}
-                                    name="\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044C Viewsonic"
-                                    id="7893318_152807"
-                                    data-reactid={153}
-                                    defaultValue="on"
-                                  />
-                                  <div
-                                    className="LhMupC0dLR"
-                                    data-reactid={154}
-                                  >
-                                    <span
-                                      className="NVoaOvqe58"
-                                      data-reactid={155}
-                                    >
-                                      Viewsonic
-                                    </span>
-                                  </div>
-                                </label>
-                              </a>
-                            </div>
-                          </li>
+                        ><Checkbox>{item}</Checkbox></div></li>))} */}
+                     
+
+                              <Checkbox>Acer</Checkbox>
                         </ul>
-                        <footer
+
+
+{/*                         <footer
                           className="_2XviVqx9xN"
                           data-da31bdc5="true"
                           data-reactid={156}
@@ -900,12 +349,39 @@ class SearchLayout2 extends React.Component {
                           <a className="_2Wg9rE1HzR" data-reactid={157} href="/">
                             Показать всё
                           </a>
-                        </footer>
+                        </footer> */}
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={158}>
                         {}
                       </div>
+
                     </div>
+
+                    <div
+                      className="_2Hue1bCg-N"
+                      data-f3c53385="true"
+                      data-reactid={438}
+                    >
+                      <fieldset
+                        className="_2qWuY12N6f"
+                        data-779c2885="true"
+                        data-reactid={439}
+                      >
+                        <legend className="_1nAu9jHf6S" data-reactid={440}>
+                          Способ доставки
+                        </legend>
+                        <RadioGroup>
+                          {Object.entries(deliveries).map(([value, title]) => 
+                            <Radio style={radioStyle} value={value} key={value}>{title}</Radio>
+                            )}
+                          
+                        </RadioGroup>
+                        </fieldset>
+                      <div className="_3vgfOcGSnv" data-reactid={460}>
+                        {}
+                      </div>
+                    </div>
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -2231,7 +1707,9 @@ class SearchLayout2 extends React.Component {
                             data-b8226845="true"
                             data-reactid={402}
                           >
-                            <div
+                          }*/
+                          
+                          {/*<div
                               className="_16hsbhrgAf"
                               data-17df2f2a="true"
                               data-reactid={403}
@@ -2268,7 +1746,8 @@ class SearchLayout2 extends React.Component {
                                 </div>
                               </label>
                             </div>
-                          </li>
+                                        </li>
+
                           <li
                             className="_2gBbJONjvk"
                             data-b8226845="true"
@@ -2356,6 +1835,7 @@ class SearchLayout2 extends React.Component {
                               </label>
                             </div>
                           </li>
+                          
                         </ul>
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={426}>
@@ -2424,12 +1904,20 @@ class SearchLayout2 extends React.Component {
                         <legend className="_1nAu9jHf6S" data-reactid={440}>
                           Способ доставки
                         </legend>
+                        <RadioGroup>
+                          {Object.entries(deliveries).map(([value, title]) => 
+                            <Radio style={radioStyle} value={value} key={value}>{title}</Radio>
+                            )}
+                          
+                        </RadioGroup>
                         <ul className="_1rFLRYsqQb" data-reactid={441}>
                           <li
                             className="_3YKtoPKZka"
                             data-779c2885="true"
                             data-reactid={442}
                           >
+
+
                             <div
                               className="_16hsbhrgAf"
                               data-17df2f2a="true"
@@ -2460,6 +1948,7 @@ class SearchLayout2 extends React.Component {
                                 </div>
                               </label>
                             </div>
+                            
                           </li>
                           <li
                             className="_3YKtoPKZka"
@@ -2534,6 +2023,7 @@ class SearchLayout2 extends React.Component {
                               </label>
                             </div>
                           </li>
+                        
                         </ul>
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={460}>
@@ -2636,7 +2126,7 @@ class SearchLayout2 extends React.Component {
                       <div className="_3vgfOcGSnv" data-reactid={478}>
                         {}
                       </div>
-                    </div>
+                    </div>*/}
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -3276,20 +2766,7 @@ class SearchLayout2 extends React.Component {
                       data-57ec50ea="true"
                       data-reactid={592}
                     >
-                      <a
-                        className="OcaftndW9c _2bjY2zQo59 _4WmLhr2Vhx _2Kihe5N2Sn"
-                        href="https://market.yandex.by/catalog/54539/filters?onstock=1&deliveryincluded=0&local-offers-first=0&hid=91052&text=%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D1%8B"
-                        data-6770afab="true"
-                        data-reactid={593}
-                      >
-                        {}
-                        {}
-                        {}
-                        {}
-                        <span className="_28j8Lq95ZZ" data-reactid={596}>
-                          Все фильтры
-                        </span>
-                      </a>
+                        <Button>Все фильтры</Button>
                     </div>
                   </div>
                 </div>
