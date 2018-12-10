@@ -22,7 +22,7 @@ class PagerMore extends React.Component {
         >
           <img
             alt=''
-            src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/La6qi18Z8LwgnZdsAr1qy1GwCwo.gif"
+            src="./old/La6qi18Z8LwgnZdsAr1qy1GwCwo.gif"
             className="image spin__icon"
           />
         </div>

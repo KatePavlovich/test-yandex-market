@@ -1,9 +1,10 @@
 import React from "react";
 import { Button, Input, Checkbox, Select, Radio } from "antd";
 
-const hotManufactures = 'Acer, AOC, ASUS, BenQ, DELL, HP, Iiyama, LG, NEC, Philips, Samsung,Viewsonic'.split(",")
-const tailManufactures = 'Alienware, Azor, Eizo, Lenovo, MSI'.split(",")
+const hotManufactures = 'Acer, AOC, ASUS, BenQ, DELL, HP, Iiyama, LG, NEC, Philips, Samsung, Viewsonic'.split(", ")
+const tailManufactures = 'Alienware, Azor, Eizo, Lenovo, MSI'.split(", ")
 const manufactures = [ ...hotManufactures, ...tailManufactures].sort()
+console.log(manufactures.sort())
 // const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
 const selectStyle = {width: '100%'}
 const Option  = Select.Option
@@ -64,7 +65,7 @@ class SearchLayout2 extends React.Component {
                         <div className="_1wa1BfeBkk" data-reactid={10}>
                           <img
                           alt=""
-                            src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/saved_resource"
+                            src="./old/saved_resource"
                             className="PvnQESFJHu"
                             data-reactid={11}
                           />
@@ -249,7 +250,7 @@ class SearchLayout2 extends React.Component {
                       data-f3c53385="true"
                       data-reactid={58}
                     >
-                    {/*}
+                    {/*
                       <fieldset
                         data-autotest-id="onstock"
                         className="n6SnxORUP9"
@@ -291,7 +292,7 @@ class SearchLayout2 extends React.Component {
                           </label>
                         </div>
                       </fieldset>
-                     */}
+                    */}
                      <Checkbox><b>В продаже</b></Checkbox>
 {/*                       <div className="_3vgfOcGSnv" data-reactid={66}>
                         {}
@@ -335,9 +336,6 @@ class SearchLayout2 extends React.Component {
                               data-17df2f2a="true"
                               data-reactid={80}
                         ><Checkbox>{item}</Checkbox></div></li>))} */}
-                     
-
-                              <Checkbox>Acer</Checkbox>
                         </ul>
 
 
@@ -350,6 +348,7 @@ class SearchLayout2 extends React.Component {
                             Показать всё
                           </a>
                         </footer> */}
+
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={158}>
                         {}
@@ -381,7 +380,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
-                    {/*
+                  
+                  {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -431,6 +431,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -645,6 +647,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -859,6 +863,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1145,6 +1151,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1236,6 +1244,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1450,6 +1460,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1499,6 +1511,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1590,6 +1604,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1639,6 +1655,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+                    */}
+{/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1688,6 +1706,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+*/}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1707,9 +1727,9 @@ class SearchLayout2 extends React.Component {
                             data-b8226845="true"
                             data-reactid={402}
                           >
-                          }*/
                           
-                          {/*<div
+                          
+                          <div
                               className="_16hsbhrgAf"
                               data-17df2f2a="true"
                               data-reactid={403}
@@ -1838,10 +1858,12 @@ class SearchLayout2 extends React.Component {
                           
                         </ul>
                       </fieldset>
+
                       <div className="_3vgfOcGSnv" data-reactid={426}>
-                        {}
                       </div>
                     </div>
+                    */}
+{/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -1891,6 +1913,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+*/}
+{/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -2030,6 +2054,8 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
+  */}
+{/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -2124,9 +2150,10 @@ class SearchLayout2 extends React.Component {
                         </ul>
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={478}>
-                        {}
                       </div>
-                    </div>*/}
+                    </div>
+*/}
+                  {/*  
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -2289,9 +2316,10 @@ class SearchLayout2 extends React.Component {
                         </ul>
                       </fieldset>
                       <div className="_3vgfOcGSnv" data-reactid={508}>
-                        {}
                       </div>
                     </div>
+*/}
+                    {/*
                     <div
                       className="_2Hue1bCg-N"
                       data-f3c53385="true"
@@ -2758,8 +2786,9 @@ class SearchLayout2 extends React.Component {
                         {}
                       </div>
                     </div>
-                    {}
+                    {}*/}
                   </div>
+                  
                   <div className="_3U2TeVBOWN" data-reactid={591}>
                     <div
                       className="_2Wdscr8iIC"

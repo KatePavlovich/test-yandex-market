@@ -96,7 +96,7 @@ class SnippetCar2 extends React.Component {
           >
             <img
               className="image"
-              src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq"
+              src="./old/6hq"
               title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Viewsonic VA2719-2K-smhd"
               alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Viewsonic VA2719-2K-smhd"
               srcSet="//avatars.mds.yandex.net/get-mpic/466729/img_id5595280924220369215.jpeg/9hq 1.5x"

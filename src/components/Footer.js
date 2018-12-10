@@ -92,7 +92,7 @@ class Footer extends React.Component {
                       <img
                         alt="\u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442 \u0432 App Store"
                         className="footer-market__promo-image"
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/lnh1zFYvjLY6X0bNFV4l9hKkmpA.png"
+                        src="./old/lnh1zFYvjLY6X0bNFV4l9hKkmpA.png"
                         srcSet="//yastatic.net/market-export/_/i/desktop/app-ios2x.png 2x"
                       />
                     </a>
@@ -104,7 +104,7 @@ class Footer extends React.Component {
                       <img
                         alt="\u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442 \u0432 Google Play"
                         className="footer-market__promo-image"
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/Q2yeopwYEbCbW75uIitMdlk1p4o.png"
+                        src="./old/Q2yeopwYEbCbW75uIitMdlk1p4o.png"
                         srcSet="//yastatic.net/market-export/_/i/desktop/app-android2x.png 2x"
                       />
                     </a>

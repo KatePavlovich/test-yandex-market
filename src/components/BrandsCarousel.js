@@ -43,7 +43,7 @@ class BrandsCarousel extends React.Component {
                   >
                     <span className="n-images-set__image">
                       <img
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/orig"
+                        src="./old/orig"
                         className="image"
                         alt="Samsung"
                       />
@@ -69,7 +69,7 @@ class BrandsCarousel extends React.Component {
                   >
                     <span className="n-images-set__image">
                       <img
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/orig(1)"
+                        src="./old/orig(1)"
                         className="image"
                         alt="AOC"
                       />
@@ -95,7 +95,7 @@ class BrandsCarousel extends React.Component {
                   >
                     <span className="n-images-set__image">
                       <img
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/orig(2)"
+                        src="./old/orig(2)"
                         className="image"
                         alt="LG"
                       />
@@ -121,7 +121,7 @@ class BrandsCarousel extends React.Component {
                   >
                     <span className="n-images-set__image">
                       <img
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/orig(3)"
+                        src="./old/orig(3)"
                         className="image"
                         alt="BenQ"
                       />
@@ -147,7 +147,7 @@ class BrandsCarousel extends React.Component {
                   >
                     <span className="n-images-set__image">
                       <img
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/orig(4)"
+                        src="./old/orig(4)"
                         className="image"
                         alt="ASUS"
                       />
@@ -173,7 +173,7 @@ class BrandsCarousel extends React.Component {
                   >
                     <span className="n-images-set__image">
                       <img
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/orig(5)"
+                        src="./old/orig(5)"
                         className="image"
                         alt="Philips"
                       />

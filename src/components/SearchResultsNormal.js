@@ -132,7 +132,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(2)"
+                      src="./old/6hq(2)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Philips 273V7QJAB"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Philips 273V7QJAB"
                       srcSet="//avatars.mds.yandex.net/get-mpic/397397/img_id8172636247548923623.jpeg/9hq 1.5x"
@@ -298,7 +298,7 @@ class SearchResultsNormal extends Component {
                     <div className="n-entrypoint-banner__image">
                       <img
                         className="image"
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/optimize"
+                        src="./old/optimize"
                         srcSet="//avatars.mds.yandex.net/get-mpic/200316/cms_resources-navigation-pages-48350-ab9b95539d6e373bec1b3e2dffc6015c_200x200@x2.png/optimize 2x"
                       />
                     </div>
@@ -327,7 +327,7 @@ class SearchResultsNormal extends Component {
                     <div className="n-entrypoint-banner__image">
                       <img
                         className="image"
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/optimize(1)"
+                        src="./old/optimize(1)"
                         srcSet="//avatars.mds.yandex.net/get-mpic/466729/cms_resources-navigation-pages-48429-41e17216efd4ae874a95cfed97099aa3_200x200@x2.png/optimize 2x"
                       />
                     </div>
@@ -359,7 +359,7 @@ class SearchResultsNormal extends Component {
                     <div className="n-entrypoint-banner__image">
                       <img
                         className="image"
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/optimize(2)"
+                        src="./old/optimize(2)"
                         srcSet="//avatars.mds.yandex.net/get-mpic/397397/cms_resources-navigation-pages-44090-21mr41ir0je65pal30sb5bcm21_200x200@x2.png/optimize 2x"
                       />
                     </div>
@@ -388,7 +388,7 @@ class SearchResultsNormal extends Component {
                     <div className="n-entrypoint-banner__image">
                       <img
                         className="image"
-                        src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/optimize(3)"
+                        src="./old/optimize(3)"
                         srcSet="//avatars.mds.yandex.net/get-mpic/200316/cms_resources-navigation-pages-42748-o8blodm7hqkerm86lo4tlhtmlb_200x200@x2.png/optimize 2x"
                       />
                     </div>
@@ -472,7 +472,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(3)"
+                      src="./old/6hq(3)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C24F390FHI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C24F390FHI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/200316/img_id8125285104942622969/9hq 1.5x"
@@ -698,7 +698,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(4)"
+                      src="./old/6hq(4)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL P2418D"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL P2418D"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1365202/img_id3804453179966895742.jpeg/9hq 1.5x"
@@ -920,7 +920,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(5)"
+                      src="./old/6hq(5)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C32F391FWI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C32F391FWI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/175985/img_id8183278700758048190/9hq 1.5x"
@@ -1124,7 +1124,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(6)"
+                      src="./old/6hq(6)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C32JG50QQI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C32JG50QQI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/906397/img_id7408206789894110727.jpeg/9hq 1.5x"
@@ -1294,7 +1294,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(7)"
+                      src="./old/6hq(7)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ PD2700U"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ PD2700U"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1060343/img_id3076925546940710674.jpeg/9hq 1.5x"
@@ -1472,7 +1472,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(8)"
+                      src="./old/6hq(8)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 25UM58"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 25UM58"
                       srcSet="//avatars.mds.yandex.net/get-mpic/199079/img_id5755038409424601189/9hq 1.5x"
@@ -1676,7 +1676,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(9)"
+                      src="./old/6hq(9)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ ZOWIE XL2411P"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ ZOWIE XL2411P"
                       srcSet="//avatars.mds.yandex.net/get-mpic/195452/img_id5886914345482764639.jpeg/9hq 1.5x"
@@ -1876,7 +1876,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(10)"
+                      src="./old/6hq(10)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung U28E590D"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung U28E590D"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id1279787909686372498/9hq 1.5x"
@@ -2094,7 +2094,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(11)"
+                      src="./old/6hq(11)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 22MP58D"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 22MP58D"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id4088872689892789228/9hq 1.5x"
@@ -2272,7 +2272,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(12)"
+                      src="./old/6hq(12)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ GW2270H"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ GW2270H"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id459988458595213247/9hq 1.5x"
@@ -2472,7 +2472,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(13)"
+                      src="./old/6hq(13)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer ET221Qbi"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer ET221Qbi"
                       srcSet="//avatars.mds.yandex.net/get-mpic/466729/img_id4809601350038182522.jpeg/9hq 1.5x"
@@ -2694,7 +2694,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(14)"
+                      src="./old/6hq(14)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 27UD58"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 27UD58"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id8724105714333462282/9hq 1.5x"
@@ -2894,7 +2894,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(15)"
+                      src="./old/6hq(15)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer Nitro VG240YUbmiipx"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer Nitro VG240YUbmiipx"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1345185/img_id2316098392006263719.jpeg/9hq 1.5x"
@@ -3071,7 +3071,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(16)"
+                      src="./old/6hq(16)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ GW2270"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 BenQ GW2270"
                       srcSet="//avatars.mds.yandex.net/get-mpic/175985/img_id8927720267165214967/9hq 1.5x"
@@ -3271,7 +3271,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(17)"
+                      src="./old/6hq(17)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC C24G1"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC C24G1"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1365202/img_id2437569108243060550.jpeg/9hq 1.5x"
@@ -3471,7 +3471,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(18)"
+                      src="./old/6hq(18)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C27F390FHI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C27F390FHI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/195452/img_id6371881203942818822/9hq 1.5x"
@@ -3671,7 +3671,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(19)"
+                      src="./old/6hq(19)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung S24D300H"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung S24D300H"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id6699230478039223263/9hq 1.5x"
@@ -3897,7 +3897,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(20)"
+                      src="./old/6hq(20)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 HP 22w"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 HP 22w"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1361544/img_id7431465029390509401.jpeg/9hq 1.5x"
@@ -4075,7 +4075,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(21)"
+                      src="./old/6hq(21)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL S2319H"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL S2319H"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1101307/img_id971502916994890314.jpeg/9hq 1.5x"
@@ -4275,7 +4275,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(22)"
+                      src="./old/6hq(22)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 ASUS VZ229HE"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 ASUS VZ229HE"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1246680/img_id5956250141604254264.jpeg/9hq 1.5x"
@@ -4475,7 +4475,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(23)"
+                      src="./old/6hq(23)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 29UM69G"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 29UM69G"
                       srcSet="//avatars.mds.yandex.net/get-mpic/195452/img_id3464414613261286689.jpeg/9hq 1.5x"
@@ -4697,7 +4697,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(24)"
+                      src="./old/6hq(24)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC 24V2Q"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC 24V2Q"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1336510/img_id124294483618290747.png/9hq 1.5x"
@@ -4897,7 +4897,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(25)"
+                      src="./old/6hq(25)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C24FG73FQI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C24FG73FQI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/331398/img_id2536084661909730884.jpeg/9hq 1.5x"
@@ -5097,7 +5097,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(26)"
+                      src="./old/6hq(26)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 34WK500"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 34WK500"
                       srcSet="//avatars.mds.yandex.net/get-mpic/200316/img_id575911344957843917.jpeg/9hq 1.5x"
@@ -5275,7 +5275,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(27)"
+                      src="./old/6hq(27)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC M2060SWD2"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC M2060SWD2"
                       srcSet="//avatars.mds.yandex.net/get-mpic/200316/img_id2882267240266768225/9hq 1.5x"
@@ -5453,7 +5453,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(28)"
+                      src="./old/6hq(28)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 24MK600M"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 24MK600M"
                       srcSet="//avatars.mds.yandex.net/get-mpic/932277/img_id3367795950445968307.jpeg/9hq 1.5x"
@@ -5631,7 +5631,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(29)"
+                      src="./old/6hq(29)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 29WK600"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 29WK600"
                       srcSet="//avatars.mds.yandex.net/get-mpic/466729/img_id1289418068742994901.jpeg/9hq 1.5x"
@@ -5831,7 +5831,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(30)"
+                      src="./old/6hq(30)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer K242HLbd"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer K242HLbd"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id3362720186421185733/9hq 1.5x"
@@ -6009,7 +6009,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(31)"
+                      src="./old/6hq(31)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Philips 243V7QDSB"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Philips 243V7QDSB"
                       srcSet="//avatars.mds.yandex.net/get-mpic/364668/img_id552975276437431382.jpeg/9hq 1.5x"
@@ -6209,7 +6209,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(32)"
+                      src="./old/6hq(32)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC I2281FWH"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC I2281FWH"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id7034850202076662595/9hq 1.5x"
@@ -6409,7 +6409,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(33)"
+                      src="./old/6hq(33)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C24F396FHI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C24F396FHI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1220464/img_id350861039143079260.jpeg/9hq 1.5x"
@@ -6609,7 +6609,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(34)"
+                      src="./old/6hq(34)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 ASUS VP249H"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 ASUS VP249H"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1374520/img_id270025358348445793.jpeg/9hq 1.5x"
@@ -6831,7 +6831,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(35)"
+                      src="./old/6hq(35)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 27UK850"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 27UK850"
                       srcSet="//avatars.mds.yandex.net/get-mpic/199079/img_id99248789880463539.jpeg/9hq 1.5x"
@@ -7031,7 +7031,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(36)"
+                      src="./old/6hq(36)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL E2418HN"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL E2418HN"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1111879/img_id6101455818424209679.jpeg/9hq 1.5x"
@@ -7179,7 +7179,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(37)"
+                      src="./old/6hq(37)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 22MP58VQ"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 22MP58VQ"
                       srcSet="//avatars.mds.yandex.net/get-mpic/195452/img_id3508290889924278565/9hq 1.5x"
@@ -7383,7 +7383,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(38)"
+                      src="./old/6hq(38)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL S2419H"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL S2419H"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1363658/img_id2442122118898106600.jpeg/9hq 1.5x"
@@ -7561,7 +7561,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(39)"
+                      src="./old/6hq(39)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC E2475SWJ"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC E2475SWJ"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id4915971955011706261/9hq 1.5x"
@@ -7739,7 +7739,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(40)"
+                      src="./old/6hq(40)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer Nitro VG270Ubmiipx"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Acer Nitro VG270Ubmiipx"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1453843/img_id500577457024111484.jpeg/9hq 1.5x"
@@ -7869,7 +7869,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(41)"
+                      src="./old/6hq(41)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC I240SXH"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC I240SXH"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1365202/img_id1665638133132588646.jpeg/9hq 1.5x"
@@ -8091,7 +8091,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(42)"
+                      src="./old/6hq(42)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Iiyama G-Master G2730HSU-1"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Iiyama G-Master G2730HSU-1"
                       srcSet="//avatars.mds.yandex.net/get-mpic/466729/img_id3602141723972096652/9hq 1.5x"
@@ -8291,7 +8291,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(43)"
+                      src="./old/6hq(43)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC Q3279VWF"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 AOC Q3279VWF"
                       srcSet="//avatars.mds.yandex.net/get-mpic/372220/img_id2870199088718206143.jpeg/9hq 1.5x"
@@ -8475,7 +8475,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(44)"
+                      src="./old/6hq(44)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL U2412M"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 DELL U2412M"
                       srcSet="//avatars.mds.yandex.net/get-mpic/1362400/img_id4175615829956550791.jpeg/9hq 1.5x"
@@ -8675,7 +8675,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(45)"
+                      src="./old/6hq(45)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Philips 246E7QDSW"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Philips 246E7QDSW"
                       srcSet="//avatars.mds.yandex.net/get-mpic/96484/img_id777796987378332679/9hq 1.5x"
@@ -8853,7 +8853,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(46)"
+                      src="./old/6hq(46)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C27F591FDI"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 Samsung C27F591FDI"
                       srcSet="//avatars.mds.yandex.net/get-mpic/195452/img_id4758796771694838858/9hq 1.5x"
@@ -9075,7 +9075,7 @@ class SearchResultsNormal extends Component {
                   >
                     <img
                       className="image"
-                      src="./\u041C\u043E\u043D\u0438\u0442\u043E\u0440\u044B \u2014 \u043A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u042F\u043D\u0434\u0435\u043A\u0441.\u041C\u0430\u0440\u043A\u0435\u0442\u0435_files/6hq(47)"
+                      src="./old/6hq(47)"
                       title="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 22MK430H"
                       alt="\u041C\u043E\u043D\u0438\u0442\u043E\u0440 LG 22MK430H"
                       srcSet="//avatars.mds.yandex.net/get-mpic/397397/img_id8615912146160404328.jpeg/9hq 1.5x"
